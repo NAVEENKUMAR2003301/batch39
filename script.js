@@ -146,4 +146,245 @@ console.error(122);
 
 // 4. console.clear()
 
-// console.clear()
+
+
+console.clear()
+
+
+// DataTypes 
+
+// 1. primitive DataType
+
+// string - ""
+
+let name = "naveen"
+
+console.log((name));
+
+
+// number - 123
+
+
+let num = 12
+
+console.log(typeof(num));
+
+
+// boolean - true , false 
+
+
+let boo = false
+
+console.log(typeof(boo));
+
+
+// undefined 
+
+
+let empty; 
+
+console.log(empty);
+
+
+// null 
+
+// let random = prompt()
+
+// console.log(random);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 2. non primitive DataType
+
+
+// Array - []
+
+let fruit = ["graps","Apple","orange","banana","giwi","papaya",123,true]
+
+console.log(fruit[2]);
+
+console.log(fruit[0]);  // array first value
+console.log(fruit[fruit.length-1]); // array last value
+
+
+
+
+
+// object - {}
+
+let employee = {
+    name : "priya",
+    role : ["software engineer","designer"],
+    isdone: true,
+    qualification : ["BE","ME"]
+}
+
+
+console.log(employee);
+console.log(employee.name);
+console.log(employee.isdone);
+console.log(employee.role[1]);
+
+
+console.clear()
+
+
+
+// operator 
+
+
+
+
+
+// Arithmetic operator 
+
+
+// meaning           syntax
+
+// addition            + 
+
+console.log(1 + 2);
+
+// subraction          - 
+
+console.log(1 - 1);
+
+
+// multiplication      * 
+
+
+console.log(2*5);
+
+
+// division           /
+
+console.log(10 / 200);
+
+
+// modulus           %
+
+console.log(44 % 200);
+
+
+// exponencial       **
+
+console.log(5**3); // 5*5*5 
+
+
+// increament       ++   = +1
+
+// post Inc   = var ++
+
+// Pre  Inc   = ++ var
+
+
+
+let num1 = 3
+
+--num1
+
+console.log(num1);
+
+// searching element first find in variable side means u can calculate that value side till variable only
+
+let num2 = 4      // null
+
+    num2 = -- num2
+
+    console.log(num2);
+
+
+
+// searching element first find in value side means u can calculate that value side entair value.
+
+
+let num3 = 5     // null
+
+let num4 = num3++ // num3 = 5 ++ = +1 // 6
+
+
+console.log("num 3",num3); // num 3  = 6
+console.log("num 4",num4); // num 4  = 5
+
+
+
+
+
+
+
+let num5 = 2 // null 
+
+let num6 = -- num5 // -- num5 = 1
+
+console.log(num5); // 1
+console.log(num6); // 1
+
+
+
+let num7 = 4  // null
+let num8 = --num7  // --num7 // 3
+let num9 = num8++  //  3
+
+
+console.log(num7); // 3      / num7 : 3
+console.log(num8); // 5 / 4  / num8 : 4
+console.log(num9); // 4 / 5  / num9 : 3
+
+    
+
+
+
+
+
+// decreament       --   = -1
+
+// Post Dec  = var --
+
+// Pre  Dec  = -- var
+
+
+
+
+console.clear();
+
+
+
+
+
+
+
+
+// Assignment operator
+
+let num10 = 20
+let additionalVal = 100
+
+
+    // num10 = num10 + additionalVal
+
+    num10 **= additionalVal
+
+    console.log(num10);
+    
+
+
+
+
+
+// comparision operator
+
+// logical operator
+
+// ternery operator
+
